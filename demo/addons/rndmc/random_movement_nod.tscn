@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ckdbasj0c2kig"]
 
-[ext_resource type="Script" uid="uid://bjscvvk8tdnsx" path="res://addons/rndmc/random_movement_nod.gd" id="1_wxmvr"]
+[ext_resource type="Script" uid="uid://cx6jejkuwkxjj" path="res://addons/rndmc/random_movement_nod.gd" id="1_wxmvr"]
 
 [node name="RandomMovement" type="Node"]
 script = ExtResource("1_wxmvr")
