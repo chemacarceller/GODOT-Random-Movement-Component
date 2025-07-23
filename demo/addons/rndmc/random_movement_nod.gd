@@ -31,14 +31,14 @@ var _newOffset : bool = true
 
 func _notification(what):
 	if what == NOTIFICATION_WM_CLOSE_REQUEST:
-		_parentActor.queue_free()
+		_parentActor = null
 
 
 # the movement code
 func _physics_process(_delta: float) -> void:
 	
 	# Only if it is enabled
-	if _isEnabled :
+	if _isEnabled and _parentActor != null:
 		# Offset to move
 		var offset : Vector3 = Vector3.ZERO
 
